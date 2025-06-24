@@ -20,8 +20,17 @@
     border-radius: 8px;
   }
 
+  .form-select-chosen__option {
+    transition-duration: 0.3s;
+  }
+
   .form-select-chosen__option::marker {
     content: none;
+  }
+
+  .form-select-chosen__option:hover {
+    background-color: #ccc;
+
   }
 
   .form-select-chosen__option {
@@ -94,6 +103,23 @@
   .input-error {
     color: #e53935;
     margin-top: 0.5rem
+  }
+
+  button {
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: #ccc 1px solid;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    transition-duration: 0.3s;
+  }
+
+  button:hover {
+    background-color: #89b77f;
+    color: #e8e7e7;
   }
 </style>
 
